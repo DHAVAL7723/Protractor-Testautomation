@@ -1,13 +1,13 @@
 describe('Login test', function() {
 
 
-	it('it should open main web page', function() {
+     it('it should open main web page', function() {
 
-  		browser.waitForAngularEnabled(false);
+        browser.waitForAngularEnabled(false);
         browser.ignoreSynchronization=true;  // or false
         browser.manage().timeouts().implicitlyWait(5000);
-  		browser.driver.manage().window().maximize();
-   		browser.get('https://demo.clickdoc.de/cd-de/search');
+  	browser.driver.manage().window().maximize();
+   	browser.get('https://demo.clickdoc.de/cd-de/search');
     	
     });
 
